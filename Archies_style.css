@@ -1,0 +1,110 @@
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+
+}
+
+.topnav a {
+    float: left;
+    color: #585958;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 auto;
+    display: inline-block;
+}
+ 
+ .topnav a{
+ 	font-family: bangers;
+ 	border-right: 1px solid #585958;
+ }
+
+ .topnav a:hover {
+    background-color: #585958;
+    color: #edeeef;
+}
+
+.tagline{ 
+	font-family: bangers; 
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+#toptag{
+	background-color: #585958;
+	margin: 0px;
+	padding: 5px;
+	border: 5px solid #33496d;
+}
+
+#hours{ 
+	text-align: center;
+	color: #585958; 
+	font-family: bangers;
+	margin:5px;
+	font-size: 25px; 
+	
+
+}
+
+#hourbox{ 
+	width: 75%;
+	background-color: #edeeef;  
+	margin: -5px auto;
+	padding: 2px
+
+}
+
+#stafflogin{ 
+	float: right;
+	margin-top:15px;
+	font-family: bangers;
+	margin-right: 25px;
+	font-size: 20px;
+	color: #585958;
+
+}
+
+#imagediv{
+		text-align: center;
+		margin:10px auto;
+
+}
+.leftinfo{
+		width:"45%";
+		border: 5px solid #33496d;
+		margin-left: 5px;
+		margin-right: 5px;
+		background-color: #edeeef
+
+}
+
+#aboutarchies{
+	margin-top:5px;
+	color:#33496d;
+	font-family: bangers;
+	font-size: 25px;
+	text-align: center;
+}
+#inside{
+	margin-left: 5px;
+	margin-right:5px;
+	font-weight: 500
+	color:#585958;
+
+}
+.innertext{
+	font-size: 18px;
+	color: #585958;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+#theman{
+	margin-top:5px;
+	color:#33496d;
+	font-family: bangers;
+	font-size: 25px;
+	text-align: center;
+}
