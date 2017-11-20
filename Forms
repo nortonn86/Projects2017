@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+		<label for="first">First Name:</label>
+		<input id="first" type="Text" placeholder="John" name="First Name" required>
+		<label for="last">Last Name:</label>
+		<input id="last" type="Text" Placeholder="Smith" name="Last Name" required>
+<div>
+		<label for="male">Male:</label>
+		<input id="male" type="Radio" name="gender" Value="male">
+		<label for="female">Female:</label>
+		<input id="female" type="Radio" name="gender" value="female">
+		<label For="other">Other</label>
+		<input id="other" type="Radio" name="gender" value="other">
+</div>
+<div>
+		<label>Email:<input type="email" placeholder="Your Email" name="Email" required></label>
+		<label>Password:<input type="password" pattern=".{8,12}" required title="Password must be between 8 and 12 charatcters" name="password"></label>
+</div>		
+<div>
+	Birthday
+	<select name="month">
+		<option>Month</option>
+		<option>January</option>
+		<option>February</option>
+		<option>March</option>
+		<option> April</option>
+		<option>May</option>
+	</select>
+	<select name="day">
+		<option>Day</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		</select>
+	</select>
+	<select name="year">
+		<option>1986</option>
+		<option>1987</option>
+		<option>1988</option>
+	</select>
+</div>
+<div>
+	<LABEL for="agreed">I agree to the terms and conditions</LABEL>
+</div>
+
+	<input type="Submit" name="">
+
+	</form>
+
+
+</body>
+</html>
